@@ -431,15 +431,45 @@ footer {
     margin-top: 372.2px;
     width: 164px;
     height: 25px;
+    padding: 0;
+    justify-content: space-between;
+    font-size: 0.9rem;
   }
 
   .review-container {
-    margin-top: 420px;
+    margin-top: 440px;
     margin-left: 0;
     margin-right: 0;
     width: 355px;
     height: 215px;
     padding: 2rem;
     font-size: 0.82em;
+  }
+  .quotes {
+    width: 15px;
+  }
+
+  .review {
+    padding: 1rem;
+    padding-left: 0;
+  }
+  .CEO-profile-picture {
+    width: 35px;
+    border-radius: 50%;
+  }
+
+  .ceo-details {
+    margin-top: 0.5rem;
+    display: grid;
+    grid-template-columns: 12% 80%;
+    gap: 0.5rem;
+  }
+
+  h3{
+    font-size: 0.8rem;
+  }
+  h4{
+    font-size: 0.6rem;
+    margin-top: 1.2rem;
   }
 }
