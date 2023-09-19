@@ -263,6 +263,8 @@ h5 {
   display: block;
   width: 65%;
   margin-left: 3.5rem;
+  border-radius: 0.3rem;
+  border: 0;
 }
 
 .early-access__input::placeholder {
@@ -272,15 +274,21 @@ h5 {
 }
 
 .early-access__btn {
+  cursor: pointer;
   display: block;
   width: 65%;
-
   border: none;
   font-size: 0.7em;
   background-color: var(--clr-accent-brightBlue);
   color: white;
   height: 2rem;
   margin: 0.5rem 0 0 3.5rem;
+  border-radius: 0.3rem;
+}
+
+.early-access__btn:hover {
+  cursor: pointer;
+  background-color: hsla(224, 93%, 58%, 0.5);
 }
 
 footer {
@@ -402,7 +410,6 @@ footer {
   }
 
   .illustration-two {
-    margin: 0;
     grid-column: 2/3;
     grid-row: 1;
   }
@@ -465,11 +472,95 @@ footer {
     gap: 0.5rem;
   }
 
-  h3{
+  h3 {
     font-size: 0.8rem;
   }
-  h4{
+  h4 {
     font-size: 0.6rem;
     margin-top: 1.2rem;
+  }
+
+  .early-access {
+    padding: 100px 120px 86px 80px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+  }
+
+  h5 {
+    font-size: 2em;
+    grid-column: 1/2;
+    grid-row: 1;
+    padding: 0;
+  }
+
+  .early-access p {
+    font-size: 1rem;
+    grid-column: 1/2;
+    grid-row: 1;
+    margin-top: 4rem;
+    padding-left: 0;
+    padding-right: 110px;
+    padding-bottom: 0;
+  }
+
+  .early-access__input {
+    width: 480px;
+    height: 48px;
+    margin-left: 8.5rem;
+    border: 0;
+    grid-column: 2/3;
+    grid-row: 1;
+    border-radius: 0.3rem;
+  }
+
+  .early-access__btn {
+    grid-column: 2/3;
+    grid-row: 1;
+    width: 200px;
+    height: 48px;
+    margin-top: 62px;
+    margin-left: 8.5rem;
+    border-radius: 0.3rem;
+    font-size: 0.9rem;
+    font-family: var(--ff-Raleway);
+    font-weight: 700;
+  }
+
+  footer {
+    padding: 110px 80px 72px 80px;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+  }
+
+  .footer-logo,
+  .contact {
+    grid-column: 1/2;
+  }
+
+  .contact {
+    margin: 0;
+    margin-top: 18px;
+  }
+
+  .footer__links {
+    margin-top: 18px;
+    margin-left: 7rem;
+    margin-bottom: 0;
+  }
+
+  #footer__links-two {
+    margin-left: 5rem;
+  }
+
+  .social-media {
+    padding: 18px 0 0 0;
+  }
+
+  .social-media div {
+    border: 0;
+  }
+  .social-media div i {
+    width: 10px;
+    height: 10px;
   }
 }
